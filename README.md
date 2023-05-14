@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/xbbfg4cokrwso22l/branch/master?svg=true)](https://ci.appveyor.com/project/MarinaGalinova/auto-hw-2-2-postman-echo/branch/master)
