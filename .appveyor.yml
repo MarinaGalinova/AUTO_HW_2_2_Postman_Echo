@@ -10,9 +10,9 @@ build: off
 
 install:
 
-  - ./artifacts/app-mbank.jar &
+  - ./artifacts/app-mbank.jar
 
 build_script:
   - ./gradlew test --info
   - name: Grant execute permission for gradlew
-    run: chmod +x gradlew
+    - chmod +x gradlew
