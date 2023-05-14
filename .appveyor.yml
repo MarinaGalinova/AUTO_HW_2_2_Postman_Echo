@@ -15,5 +15,5 @@ install:
 build_script:
   - ./gradlew test --info
   - name: Grant execute permission for gradlew
-  run:
+  - run:
     - chmod +x gradlew
