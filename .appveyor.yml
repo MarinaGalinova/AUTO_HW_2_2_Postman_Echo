@@ -12,7 +12,10 @@ install:
 
   - java -jar ./artifacts/app-mbank.jar &
 
-build_script:
-  - ./gradlew test --info
+
+
   - name: Grant execute permission for gradlew
     run: chmod +x gradlew
+
+build_script:
+  - ./gradlew test --info
